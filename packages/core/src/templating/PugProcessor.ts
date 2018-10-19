@@ -1,6 +1,6 @@
+import IInput from '@fakturuba/interfaces/input/IInput';
+import ITemplatingProcessor from '@fakturuba/interfaces/templating/ITemplatingProcessor';
 import {compile, compileTemplate} from 'pug';
-import IInput from '../input/IInput';
-import ITemplatingProcessor from './ITemplatingProcessor';
 
 export default class PugProcessor implements ITemplatingProcessor {
     private compileFunction: compileTemplate | undefined = undefined;

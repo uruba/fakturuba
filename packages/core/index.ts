@@ -1,8 +1,8 @@
-import Runner from './cli/Runner';
-import IConfig from './config/IConfig';
-import IGenerator from './generator/IGenerator';
-import IInput from './input/IInput';
-import ITemplatingProcessor from './templating/ITemplatingProcessor';
+import IConfig from '@fakturuba/interfaces/config/IConfig';
+import IGenerator from '@fakturuba/interfaces/generator/IGenerator';
+import IInput from '@fakturuba/interfaces/input/IInput';
+import ITemplatingProcessor from '@fakturuba/interfaces/templating/ITemplatingProcessor';
+import Runner from './src/cli/Runner';
 
 export default (
     runner: Runner,

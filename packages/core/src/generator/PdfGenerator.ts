@@ -1,7 +1,7 @@
+import IGenerator from '@fakturuba/interfaces/generator/IGenerator';
+import IInput from '@fakturuba/interfaces/input/IInput';
+import ITemplatingProcessor from '@fakturuba/interfaces/templating/ITemplatingProcessor';
 import {Browser, launch} from 'puppeteer';
-import IInput from '../input/IInput';
-import ITemplatingProcessor from '../templating/ITemplatingProcessor';
-import IGenerator from './IGenerator';
 
 export default class PdfGenerator implements IGenerator {
     public async generate(input: IInput, templatingProcessor: ITemplatingProcessor, ...inputArgs: any): Promise<void> {

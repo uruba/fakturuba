@@ -1,0 +1,10 @@
+{
+  "name": "@fakturuba/interfaces",
+  "version": "0.1.0",
+  "author": "uruba <uruba@outlook.com>",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  }
+}
